@@ -15,5 +15,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Merge to main
-        uses: devmasx/merge-branch@1.4.0
         run: echo 'foo'
